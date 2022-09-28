@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Portfolio</title>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="newstyle.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="90">
+    <header>
+        <!-- Navbar start -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top " style="background-image:linear-gradient(to right, #4458dc 0%, #854fee 100% ), 
+            radial-gradient(circle at top left, #4458dc,#854fee) ;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#work">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact Me</a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn  btn-outline-light" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar end -->
+
+
+
+    <!-- Main Section start -->
+
+
+    <section id="home" class=" bg-body p-5 p-lg-0 pt-lg-5 text-center text-sm-start shadow">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between main-div">
+                <img class="img-fluid Main-img d-none d-sm-block bg-dark mx-5 rounded-circle" src="images/AV3.png"
+                    alt="" />
+
+                <div class="text-center">
+                    <strong>I am</strong>
+                    <h1 class="fw-bolder heading">" Max Payne "</h1>
+                    <p class="lead my-4 fs-4 fw-normal"><span><i class="fa-solid fa-code mx-2"></i></span>  Web Developer</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam nostrum sit cupiditate dolorum
+                        minus suscipit. Explicabo assumenda architecto quod quidem.
+                    </p>
+                    <button class="btn btn-lg m-4 btn1">Hire Me</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- main section end -->
+
+
+    <!-- About Section starts  -->
+    <section id="about">
+        <div class="container text-center text-white shadow p-3 my-5 bg-dark rounded">
+            <h1 class="heading">About Me</h1>
+            <img src="images/AV.png" class="img-fluid m-3" style="max-height: 15rem;" alt="">
+            <h3>Max Payne</h3>
+            <p class="mb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem accusantium perferendis, ullam
+                quidem,
+                voluptas voluptate maxime dicta sint vitae, pariatur eos veritatis at nisi minima provident omnis
+                repellat
+                ab voluptatum laboriosam ut excepturi. Architecto ipsum nulla rerum, praesentium fuga quis est natus
+                velit
+                aut explicabo itaque quas repellendus ex nisi?</p>
+
+                    <h2 class="mb-3">My Skills</h2>
+            <div>
+                <h4 class="mt-5"> HTML </h4>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="100"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h4 class="m-2"> CSS </h4>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0"
+                        aria-valuemax="100"></div>
+                </div>
+                <h4 class="m-2"> JavaScript </h4>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="50" aria-valuemin="0"
+                        aria-valuemax="100"></div>
+                </div>
+                        <h4 class="m-2">PHP</h4>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0"
+                        aria-valuemax="100"></div>
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+    <!-- About section Ends -->
+
+
+    <!-- project section start -->
+    <section id="work">
+        <div class="container text-center p-3 mb-5 mt-3 ">
+            <h1 class="fw-bold mb-3">WORK</h1>
+
+            <div class="card-group ">
+                <div class="card m-2 bg-body text-dark  border border-secondary" data-aos="flip-down">
+                    <img src="images/card2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum accusamus,
+                            nostrum voluptate officia eum et! </p>
+                        <button class="btn btn-outline-secondary w-50 m-2 " type="submit">Learn More</button>
+
+                    </div>
+                </div>
+                <div class="card m-2 bg-body text-dark border border-secondary" data-aos="flip-up">
+                    <img src="images/card2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum accusamus,
+                            nostrum voluptate officia eum et! </p>
+                        <button class="btn btn-outline-secondary w-50 m-2 " type="submit">Learn More</button>
+                    </div>
+                </div>
+                <div class="card m-2 bg-body text-dark border border-secondary" data-aos="flip-down">
+                    <img src="images/card2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum accusamus,
+                            nostrum voluptate officia eum et! </p>
+                        <button class="btn btn-outline-secondary w-50 m-2 " type="submit">Learn More</button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-group mt-5">
+                <div class="card m-2 bg-body text-dark border border-secondary" data-aos="flip-up">
+                    <img src="images/card2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, neque
+                            velit iusto maiores illo molestias.</p>
+                        <button class="btn btn-outline-secondary w-50 m-2 " type="submit">Learn More</button>
+
+                    </div>
+                </div>
+                <div class="card m-2 bg-body text-dark border border-secondary" data-aos="flip-down">
+                    <img src="images/card2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, neque
+                            velit iusto maiores illo molestias.</p>
+                        <button class="btn btn-outline-secondary w-50 m-2 " type="submit">Learn More</button>
+
+                    </div>
+                </div>
+                <div class="card m-2 bg-body text-dark border border-secondary" data-aos="flip-up">
+                    <img src="images/card2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, neque
+                            velit iusto maiores illo molestias.</p>
+                        <button class="btn btn-outline-secondary w-50 m-2 " type="submit">Learn More</button>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+    <!--  project section end-->
+
+
+    <!-- Contact Me starts -->
+    <section id="contact">
+        <div class="container  text-center shadow-lg p-3 mb-5 rounded ">
+
+            <h1 class="m-5 heading">Contact Me</h1>
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-lg-8 text-start">
+                    <form action="" method="POST">
+                        Name <input type="text" class="form-control" name="name" placeholder="Type Your Full Name"><br>
+                        Contact <input type="tel" class="form-control" name="Contact"
+                            placeholder="Type Contact Number"><br>
+                        Email <input type="email" class="form-control" name="email"
+                            placeholder="Type Your Email Address"><br>
+
+                        <button class="btn btn-outline-primary w-25" type="submit">Send</button><br><br>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Contact me ends -->
+
+
+
+
+
+    <!-- Footer start -->
+    <footer class="container-fluid bg-dark mt-5 text-white">
+        <div class="container">
+            <div class="row py-3">
+                <div class="col-md-6">
+
+                    <!-- Start 1st Column -->
+
+                    <span class="pr-2">Follow Us: </span>
+                    <a href="#" class="pr-2 fi-color"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="pr-2 fi-color"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="pr-2 fi-color"><i class="fab fa-youtube"></i></a>
+
+                </div>
+                <!-- End 1st Column -->
+
+                <div class="col-md-6 text-right">
+                    <!-- Start 2nd Column -->
+                    <small> &copy;Max Corp. 2022</small>
+                </div>
+                <!-- Footer end  -->
+
+                <!-- Optional JavaScript; choose one of the two! -->
+
+                <!-- Option 1: Bootstrap Bundle with Popper -->
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+                    crossorigin="anonymous"></script>
+
+                <!-- aos -->
+                <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+                <script>
+                    AOS.init(
+                        {
+                            duration: 1000
+                        }
+                    );
+                </script>
+
+</body>
+
+</html>
